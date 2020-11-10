@@ -221,7 +221,7 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
 
  }
   
- @media screen and (max-width:500px) 
+ @media screen and (max-width:800px) 
  {
    .storage{
         max-width:100% ;
@@ -236,8 +236,9 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
    border-bottom-right-radius:5px;
    border-bottom-left-radius:5px;
    border-top-right-radius:15px;
-  padding: 0 2rem;
+  padding: 0 4rem;
    padding-bottom: 15em; 
+   background-color: chartreuse;
 
 }
 .columns{
@@ -247,8 +248,9 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
 table{
   align-items: center;
   float: left;
+  margin-right: 40em;
   margin: 0;
-  width: auto;
+  background-color: cadetblue;
 
 }
 .js{ 

@@ -61,7 +61,7 @@ h3 a:hover {
   justify-content: space-between;
   max-width: 100%;
   max-height: 100%;
-  background: rgba(0, 0, 0, 0.692);
+  background: rgba(0, 0, 0, 0.692) fixed;
 
 }
 h1{
@@ -115,7 +115,7 @@ tbody tr:nth-child(even):hover{
    color:aqua;
  }
  .fa:hover{
-   font-size:1.6rem;
+   font-size:1.3em;
  }
 form {
   padding: 0.3em;
@@ -172,15 +172,6 @@ form input {
     center/cover no-repeat;
 }
 
-#libur .fa{
-  margin-top: 2em;
- float: left;
- margin-left: 0;
-color:bisque;
-letter-spacing: 6px;
-text-shadow: 0 0 3px olive, 0 0 5px pink;
-}
-
 @media screen and (max-width:1000px) {
   .storage{
     margin-right: 0;
@@ -211,6 +202,7 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
 
  .storage_items{
   max-height: 60%;
+    background-color: white;
     width: 400px;
     height: 50%;
     margin-left: 10em;
@@ -221,40 +213,30 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
 
  }
   
- @media screen and (max-width:500px) 
+ @media screen and (max-width:800px) 
  {
-   .storage{
-        max-width:100% ;
-        margin: 4em;
-   }
+  .storage{
+    margin-right: 0;
+    
+    background: url("./images/719-removebg-preview.png") center/cover no-repeat;
+  }
   .storage_items{
-    margin: 0;
-    margin-right:5em;
+    margin:0;
     font-size: 13px;
-   border: 10px solid black;
+   border: 10px solid powderblue;
    border-radius: 45px;
    border-bottom-right-radius:5px;
    border-bottom-left-radius:5px;
    border-top-right-radius:15px;
-  padding: 0 2rem;
+  
+   padding:0;
    padding-bottom: 15em; 
-
-}
-.columns{
-  flex-direction: column;
+  
 }
 
-table{
-  align-items: center;
-  float: left;
-  margin: 0;
-  width: auto;
-
-}
 .js{ 
-  width:100%;
-  padding: 0 5em;
- }
+  transform: skew(90deg);
+  margin:4em;}
 
  }
 

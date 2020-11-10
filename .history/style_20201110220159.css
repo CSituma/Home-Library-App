@@ -221,35 +221,30 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
 
  }
   
- @media screen and (max-width:500px) 
+ @media screen and (max-width:800px) 
  {
    .storage{
         max-width:100% ;
         margin: 4em;
    }
   .storage_items{
-    margin: 0;
-    margin-right:5em;
+    margin-right:4em;
     font-size: 13px;
    border: 10px solid black;
    border-radius: 45px;
    border-bottom-right-radius:5px;
    border-bottom-left-radius:5px;
    border-top-right-radius:15px;
-  padding: 0 2rem;
+   padding:6em;
    padding-bottom: 15em; 
 
 }
 .columns{
   flex-direction: column;
 }
-
-table{
-  align-items: center;
-  float: left;
+table {
   margin: 0;
-  width: auto;
-
+  padding: 4em;
 }
 .js{ 
   width:100%;

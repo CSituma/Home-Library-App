@@ -221,7 +221,7 @@ text-shadow: 0 0 3px olive, 0 0 5px pink;
 
  }
   
- @media screen and (max-width:500px) 
+ @media screen and (max-width:800px) 
  {
    .storage{
         max-width:100% ;
@@ -249,6 +249,7 @@ table{
   float: left;
   margin: 0;
   width: auto;
+  padding: 0 2rem;
 
 }
 .js{ 
