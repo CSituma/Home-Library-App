@@ -1,0 +1,223 @@
+/*homepage//////////////*/
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url("./images/sandra-seitamaa-qkIWnKtGhg4-unsplash.jpg")
+    center/cover no-repeat fixed;
+}
+
+.container {
+  margin: 10em 20em 20em 20em;
+  height: 400px;
+  width: 40%;
+  background-color: rgba(146, 116, 15, 0.445);
+  text-align: center;
+}
+
+.lol {
+  padding-top: 5em;
+  font-weight: 800;
+  font-style: italic;
+}
+span {
+  color: yellow;
+  font-weight: 400;
+}
+#lolone {
+  color: ghostwhite;
+}
+
+h3 {
+  padding-top: 4em;
+  float: right;
+  margin-right: 0.5em;
+  font-weight: 900;
+  font-size: 2rem; 
+  text-shadow: 0 0 3px #FF0000, 0 0 5px aqua;
+}
+
+h3 a {
+  text-decoration: none;
+ color: aquamarine; 
+  
+}
+
+h3 a:hover {
+  text-decoration: none;
+  color: burlywood;
+}
+
+#you {
+  padding: 1rem;
+  color: gold;
+}
+
+/*library////////////////*/
+.columns { 
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  max-height: 100%;
+  background: rgba(0, 0, 0, 0.692) fixed;
+
+}
+h1{
+  letter-spacing: 6px;
+  text-shadow: 0 0 3px olive, 0 0 5px pink;
+  padding-top:2em;
+  margin: 0;
+  color: bisque;
+  
+}
+table {
+  background: black;
+  width: 100%;
+  margin:0.5em;
+  margin-left:0.2em;
+  text-align: center;
+  color:white;
+  
+}
+
+
+td{
+  margin: 2em;
+}
+tr{ 
+  border-left: white 5px solid;
+  height: 40px;
+}
+th {
+  color: black;
+  background:url('./images/josephine-bredehoft-KsAo8ouBn8A-unsplash.jpg') center/cover no-repeat;
+  outline: none;
+}
+tbody tr:nth-child(odd){
+  background:white;
+ color: olive;
+}
+tbody tr:nth-child(odd):hover {
+  box-shadow: 0 0 0 2px white;
+  
+}
+tbody tr:nth-child(even){
+background:black;
+
+}
+tbody tr:nth-child(even):hover{
+  box-shadow: 0 0 0 2px gray;
+}
+
+ .fa {
+   color:aqua;
+ }
+ .fa:hover{
+   font-size:1.3em;
+ }
+form {
+  padding: 0.3em;
+  margin-top: 1em;
+}
+
+form input {
+  width: 100%;
+  margin: 0.5em 0;
+  -webkit-box-shadow: 0 0 0 2px white;
+  box-shadow: 0 0 0 2px white;
+}
+
+:placeholder-shown {
+  text-align: center;
+}
+
+#button {
+  color: pink;
+  background-color: black;
+}
+
+/*/////////////////////////////////*/
+.storage_items {
+
+  background-color: white;
+  width:100%;
+  max-height: 70%;
+  margin-left: 8em;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  border: rgb(0, 0, 0) 5px solid;
+  border-style: groove;
+  padding-bottom: 15em;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: 2px;
+}
+.storage {
+  background:url("./images/1463-removebg-preview.png") center/cover no-repeat;
+  width: 60%;
+  height: 85vh;
+  margin: 6em 3em 6em 0;
+  border-radius: 3px;
+
+}
+.js {
+  -webkit-box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.191);
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.191);
+  text-align: center;
+  width: 40%;
+  margin: 6em 0em 6em 3em;
+  background: url("./images/josephine-bredehoft-KsAo8ouBn8A-unsplash.jpg")
+    center/cover no-repeat;
+}
+
+@media screen and (max-width:1000px) {
+  .storage{
+    margin-right: 0;
+    
+    background: url("./images/719-removebg-preview.png") center/cover no-repeat;
+  }
+  .storage_items{
+    margin:0;
+    font-size: 13px;
+   border: 10px solid black;
+   border-radius: 45px;
+   border-bottom-right-radius:5px;
+   border-bottom-left-radius:5px;
+   border-top-right-radius:15px;
+  
+   padding:0;
+   padding-bottom: 15em; 
+  
+}
+
+.js{ 
+  margin: 0;}
+
+
+}
+
+@media screen and (min-width:1000px) {
+
+ .storage_items{
+  max-height: 60%;
+    background-color: white;
+    width: 400px;
+    height: 50%;
+    margin-left: 10em;
+    margin-top: 5.5em;
+  
+  }
+
+
+ }
+  
+
+
+
+
+
+
+
+

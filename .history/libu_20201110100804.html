@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <title>BOOK TRACKER</title>
+</head>
+<body>
+    <div class="columns">
+        <div class="js">
+        
+            <h1><i class="fa fa-book"></i>MY BOOKS</h1>
+            <form id="form">
+                <input type= "text" id= "title"  placeholder="title">
+                <input type= "text" id= "author" placeholder="author" >
+                <input type= "text" id= "number" placeholder="ISBN Number">
+                <input type= "submit"id= "button" value="ADD">
+            </form>
+        <h3> <a href= "./index.html"> < Back </a></h3>
+        </div>
+        <div class="storage" >
+              <div class="storage_items">
+        <table id="table">
+            <thead>
+                <tr>
+                <th id="title">Title</th>
+                <th>Author</th>
+                <th>ISBN Number</th>
+                <th>Delete</th>
+                </tr>
+                </thead>
+                <tbody class="Booklist" id="booklist">
+                      <tr>
+                         
+            
+                      </tr>
+                </tbody>   
+            </table>
+            </div>
+        </div>
+</div>
+    <script src="lib.js"></script>
+ </body>
+ </html>
